@@ -1,0 +1,745 @@
+Body{
+    background-image: url(./Images/bg.jpg);
+    background-attachment: fixed;
+    background-color: #1e252d;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    scroll-margin-top: 40px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* HeadSection CSS */
+#HeadSection{
+    text-align: center;
+    font-weight: 100;
+    margin-top: 219px;
+}
+h1{
+    font-size: 69px;
+    letter-spacing: 5px;
+}
+#HeadSection p{
+    font: initial;
+    font-size: 22px;
+    font-weight: 100;
+    margin: -31px 0px 51px 0px;
+    line-height: 46px;
+}
+#HeadSection a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px dotted white;
+}
+#HeadSection p a:hover{
+    border-bottom-color: transparent;
+    color: cyan;
+}
+#HeadSection a:hover{
+    border-color: cyan;
+    color: cyan;
+}
+#HeadSection ul li{
+    list-style: none;
+}
+#HeadSection ul a {
+    font-size: 23px;
+    padding: 16px 20px;
+    border-radius: 100%;
+    color: white;
+    display: inline-block;
+    border: 3px solid white;
+}
+/* Block CSS */
+#Massively a{
+    border: 5px solid white;
+    padding: 13px 26px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 643px;
+    text-decoration: none;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    /* massively block */
+    margin-top: 106px;
+}
+#Massively a:hover{
+    border-color: cyan;
+    color: cyan;
+}
+/* Navigation CSS */
+#NavSection{
+    background-color: transparent;
+}
+#NavSection ul{
+    overflow: auto;
+    margin: 64px 0px 0px 182px;
+    background-color: rgba(255, 255, 255, 0.176);
+    width: 73.5%;
+    color: white;
+}
+#NavSection ul li{
+    list-style: none;
+    margin-left: -40px;
+    display: inline-block;
+}
+/* #NavSection ul li.tab3{
+    margin-right: -20px ;
+    color: red;
+} */
+#NavSection ul li.tab1 a{
+    float: left;
+    text-decoration: none;
+    padding: 24px 38px;
+    color: #323840;
+    background-color: white;
+    font-size: 12px;
+    margin-right: 37px;
+}
+#NavSection ul li.tab1 a:hover{
+    color: cyan;
+}
+#NavSection ul li.tab2:hover{
+    background-color: rgba(255, 255, 255, 0.176);
+}
+#NavSection ul li.tab2 a{
+    float: left;
+    text-decoration: none;
+    padding: 24px 38px;
+    color: white;
+    background-color: transparent;
+    font-size: 12px;
+    margin-right: 37px;
+}
+#NavSection ul li.tab3:hover{
+    background-color: rgba(255, 255, 255, 0.176);
+}
+#NavSection ul li.tab3 a{
+    float: left;
+    text-decoration: none;
+    padding: 24px 38px;
+    color: white;
+    background-color: transparent;
+    font-size: 12px;
+    margin-right: 393px;
+}
+#NavSection #tabs li.icon a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 18px 35px 18px 28px;
+    float: right;
+}
+#NavSection #tabs li.icon a:hover{
+    color: cyan;
+}
+/* FeatureSection CSS */
+#FeatureSection{
+    width: 76%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: -26px;
+}
+#MainPost{
+    text-align: center;
+    padding-bottom: 129px;
+    border-bottom: 2px solid #eeee;
+}
+#MainPost h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 104px;
+}
+#MainPost h5::before{
+    content: "";
+    background-color: #f0f0f0;
+    width: 367px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    left: 20%;
+    top: 144%;
+    z-index: 1;
+}
+#MainPost h5::after{
+    content: "";
+    background-color: #f0f0f0;
+    width: 367px;
+    height: 2px;
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 144%;
+    z-index: 1;
+}
+#MainPost h1{
+    color: black;
+    font-size: 55px;
+    margin: 75px 0px 0px 0px;
+}
+#MainPost h1:hover{
+    color: cyan;
+}
+#MainPost p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 10px;
+}
+#MainPost img{
+    width: 77%;
+    margin: 49px 0px 65px 94px
+}
+#MainPost img:hover{
+    transform: scale(1.02);
+}
+#MainPost button{
+    padding: 17px 39px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 13px;
+    font-weight: 900;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+}
+#MainPost button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+/* POSTS */
+#PostDiv1{
+    border-right: 2px solid #f0f0f0;
+    border-bottom: 2px solid #eeee;
+    display: inline-block;
+}
+#PostDiv1 h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 15px;
+    margin-top: 0;
+    font-weight: 100;
+    padding-top: 72px;
+    text-align: center;
+}
+#PostDiv1 h1{
+    color: black;
+    font-size: 24px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#PostDiv1 h1:hover{
+    color: cyan;
+}
+#PostDiv1 img{
+    width: 77%;
+    margin: 0px 0px 65px 65px;
+}
+#PostDiv1 img:hover{
+    transform: scale(1.02);
+}
+#PostDiv1 p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -29px;
+    padding: 0px 0px 0px 65px;
+}
+#PostDiv1 button{
+    padding: 15px 28px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+    margin: 15px 0px 65px 219px;
+}
+#PostDiv1 button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+#PostDiv2{
+    display: inline-block;
+    border-right: 2px solid #f0f0f0;
+    border-bottom: 2px solid #eeee;
+    margin-left: -3px;
+}
+#PostDiv2 h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 72px;
+    text-align: center;
+    margin-top: 0;
+}
+#PostDiv2 h1{
+    color: black;
+    font-size: 24px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#PostDiv2 h1:hover{
+    color: cyan;
+}
+#PostDiv2 img{
+    width: 77%;
+    margin: 0px 0px 65px 65px;
+}
+#PostDiv2 img:hover{
+    transform: scale(1.02);
+}
+#PostDiv2 p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -29px;
+    padding: 0px 0px 0px 65px;
+}
+#PostDiv2 button{
+    padding: 15px 28px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+    margin: 15px 0px 65px 219px;
+}
+#PostDiv2 button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+
+#PostDiv3{
+    display: inline-block;
+    border-right: 2px solid #f0f0f0;
+    border-bottom: 2px solid #eeee;
+}
+#PostDiv3 h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 72px;
+    text-align: center;
+    margin-top: 0;
+}
+#PostDiv3 h1{
+    color: black;
+    font-size: 24px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#PostDiv3 h1:hover{
+    color: cyan;
+}
+#PostDiv3 img{
+    width: 77%;
+    margin: 0px 0px 65px 65px;
+}
+#PostDiv3 img:hover{
+    transform: scale(1.02);
+}
+#PostDiv3 p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -29px;
+    padding: 0px 0px 0px 65px;
+}
+#PostDiv3 button{
+    padding: 15px 28px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+    margin: 15px 0px 65px 219px;
+}
+#PostDiv3 button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+#PostDiv4{    
+    display: inline-block;
+    border-bottom: 2px solid #eeee;
+    margin-left: -3px;
+}
+#PostDiv4 h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 72px;
+    text-align: center;
+    margin-top: 0;
+}
+#PostDiv4 h1{
+    color: black;
+    font-size: 24px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#PostDiv4 h1:hover{
+    color: cyan;
+}
+#PostDiv4 img{
+    width: 77%;
+    margin: 0px 0px 65px 65px;
+}
+#PostDiv4 img:hover{
+    transform: scale(1.02);
+}
+#PostDiv4 p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -29px;
+    padding: 0px 0px 0px 65px;
+}
+#PostDiv4 button{
+    padding: 15px 28px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+    margin: 15px 0px 65px 219px;
+}
+#PostDiv4 button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+#PostDiv5{
+    display: inline-block;
+    border-right: 2px solid #f0f0f0;
+    border-bottom: 2px solid #eeee;
+}
+#PostDiv5 h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 72px;
+    margin-top: 0;
+    text-align: center;
+}
+#PostDiv5 h1{
+    color: black;
+    font-size: 24px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#PostDiv5 h1:hover{
+    color: cyan;
+}
+#PostDiv5 img{
+    width: 77%;
+    margin: 0px 0px 65px 65px;
+}
+#PostDiv5 img:hover{
+    transform: scale(1.02);
+}
+#PostDiv5 p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -29px;
+    padding: 0px 0px 0px 65px;
+}
+#PostDiv5 button{
+    padding: 15px 28px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+    margin: 15px 0px 65px 219px;
+}
+#PostDiv5 button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+#PostDiv6{
+    display: inline-block;
+    border-bottom: 2px solid #eeee;
+    margin-left: -3px;
+}
+#PostDiv6 h5{
+    color: #4b5158;
+    font: initial;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 22px;
+    padding-top: 72px;
+    margin-top: 0;
+    text-align: center;
+}
+#PostDiv6 h1{
+    color: black;
+    font-size: 24px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+#PostDiv6 h1:hover{
+    color: cyan;
+}
+#PostDiv6 img{
+    width: 77%;
+    margin: 0px 0px 65px 65px;
+}
+#PostDiv6 img:hover{
+    transform: scale(1.02);
+}
+#PostDiv6 p{
+    color: #4b5158;
+    font: initial;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: -29px;
+    padding: 0px 0px 0px 65px;
+}
+#PostDiv6 button{
+    padding: 15px 28px;
+    border: 1px solid #212931;
+    color: #212931;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 1px #212931;
+    background-color: transparent;
+    margin: 15px 0px 65px 219px;
+}
+#PostDiv6 button:hover{
+    color: cyan;
+    border-color: cyan;
+    box-shadow: 0 0 0 1px cyan;
+}
+/* PagesSection CSS */
+#PagesSection{
+    width: 76%;
+    margin: -16px auto;
+    background-color: white;
+}
+#PagesSection ul{
+    padding: 65px 0px;
+    text-align: center;
+}
+#PagesSection ul li
+{
+    display: inline-block;
+    padding: 14px 22px;
+    border: 2px solid #f0f0f0;
+    margin-left: -5px;
+}
+#PagesSection ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+#PagesSection .active{
+    background-color: #f0f0f0;
+}
+#PagesSection .multi{
+    padding: 14px 17px;
+    color: #f0f0f0;
+}
+#PagesSection .next::after{
+    content: ">";
+    display: inline-block;
+    margin-left: 8px;
+    color: black;
+}
+#PagesSection .next{
+    padding: 14px 28px;
+}
+#PagesSection ul li:hover{
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    border-color: cyan;
+    color: cyan !important;
+    box-shadow: 0 0 0 1px cyan;
+}
+/* FormSection CSS */
+#FormSection{
+    width: 76%;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    color: #717981;
+    font: inherit;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#form1{
+    display: inline-block;
+    width: 39%;
+    padding: 62PX;
+}
+#form1 div {
+    padding-top : 26px;
+}
+#form1 label{
+    display: inline-block;
+    width: 100%;
+}
+#form1 #name{
+    padding: 15px;
+    width: 93%;
+    border: 2px solid #e2e2e2;
+    margin-top: 14px;
+    color: #717981;
+}
+#form1 #email{
+    padding: 15px;
+    width: 93%;
+    border: 2px solid #e2e2e2;
+    margin-top: 14px;
+    color: #717981;
+}
+#form1 #message{
+    padding: 44px;
+    width: 80%;
+    border: 2px solid #e2e2e2;
+    margin-top: 14px;
+    color: #717981;
+}
+#form1 button{
+    padding: 14px 25px;
+    border: 2px solid;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #717981;
+    border-color: #717981;
+}
+#form1 #name:hover{
+    border-color: cyan;
+}
+#form1 #email:hover{
+    border-color: cyan;
+}
+#form1 #message:hover{
+    border-color: cyan;
+}
+#form1 button:hover{
+    border: 2px solid cyan;
+    color: cyan;
+}
+#form2{
+    display: inline-block;
+    border-left: 2px solid #e2e2e2;
+    width: 40%;
+}
+#form2 div{
+    display: inline-block;
+    width: 124%;
+    border-bottom: 2px solid #e2e2e2;
+}
+#form2 h3{
+    display: inline-block;
+    font-size: 12px;
+    width: 92px;
+    padding: 38px 0px 34px 65px;
+}
+#form2 p{
+    font: initial;
+    font-size: 14px;
+    display: inline-block;
+    padding: 35px 0px 40px 0px;
+    line-height: 31px;
+}
+#form2 p a{
+    text-decoration: none;
+    color: #717981;
+    border-bottom: 1px dotted #717981;
+}
+#form2 ul{
+    display: inline-block;
+}
+#form2 #Info4{
+    border-bottom: transparent;
+}
+#form2 #Info4 a{
+    text-decoration: none;
+    color: #717981;
+}
+#form2 ul li{
+    display: inline-block;
+    color: #717981;
+    padding: 6px 9px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 3px solid #e2e2e2;
+    margin-left: 9px;
+}
+#form2 p a:hover{
+    border-bottom: transparent;
+    color: cyan;
+}
+#form2 #Info4 a:hover{
+    color: cyan;
+}
+#form2 ul li:hover{
+    border-color: cyan;
+}
+/* FooterSection */
+#FooterSection ul{
+    text-align: center;
+    margin: 67px 400px 135px 400px;
+}
+#FooterSection li{
+    display: inline-block;
+    padding: 0px 25px 0px 25px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.25);
+    border-right: 1px solid;
+}
